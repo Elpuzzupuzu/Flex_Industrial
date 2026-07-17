@@ -1,20 +1,19 @@
 import { Outlet } from "react-router-dom";
 
+import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
+
 function AppShell() {
   return (
-    <>
-      <header>
-        <p>Flex Industrial</p>
-      </header>
+    <div className="flex min-h-screen flex-col">
+      <Header />
 
-      <main>
+      <main className="flex-1">
         <Outlet />
       </main>
 
-      <footer>
-        <p>Flex Industrial</p>
-      </footer>
-    </>
+      <Footer />
+    </div>
   );
 }
 

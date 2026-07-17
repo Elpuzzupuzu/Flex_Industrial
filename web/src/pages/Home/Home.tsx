@@ -1,13 +1,17 @@
+import HeroSlider from "@/components/home/HeroSlider/HeroSlider";
+import { heroSlides } from "@/data/heroSlides";
+
 function Home() {
   return (
-    <section>
-      <h1>Soluciones para la industria</h1>
+    <main>
+      <HeroSlider
+        slides={heroSlides}
+        autoPlay
+        autoPlayInterval={6000}
+      />
 
-      <p>
-        Flex Industrial ofrece soluciones enfocadas en las necesidades de cada
-        proyecto.
-      </p>
-    </section>
+      {/* Próximas secciones del Home */}
+    </main>
   );
 }
 
