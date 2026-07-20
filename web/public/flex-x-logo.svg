@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 243 207" role="img" aria-labelledby="title desc">
+  <title id="title">Logotipo X</title>
+  <desc id="desc">Símbolo geométrico con una flecha naranja a la izquierda y dos segmentos azules a la derecha.</desc>
+
+  <path fill="#ff5a2a" d="M5 13h56l86 93-85 93H5l85-93L5 13Z"/>
+  <path fill="#173f91" d="M177 13h55l-66 72-27-30 38-42Z"/>
+  <path fill="#173f91" d="m166 128 66 71h-55l-38-42 27-29Z"/>
+</svg>

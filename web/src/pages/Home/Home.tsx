@@ -1,4 +1,7 @@
 import HeroSlider from "@/components/home/HeroSlider/HeroSlider";
+import FlexQuickLinks from "@/components/home/FlexQuickLinks/FlexQuickLinks";
+import ServicesShowcase from "@/components/home/ServicesShowcase/ServicesShowcase";
+
 import { heroSlides } from "@/data/heroSlides";
 
 function Home() {
@@ -10,7 +13,9 @@ function Home() {
         autoPlayInterval={6000}
       />
 
-      {/* Próximas secciones del Home */}
+      <FlexQuickLinks />
+
+      <ServicesShowcase />
     </main>
   );
 }
