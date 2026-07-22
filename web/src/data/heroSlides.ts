@@ -6,7 +6,7 @@ import type { HeroSlideData } from "@/components/home/HeroSlider/heroSlider.type
 
 import heroIndustrial1 from "@/assets/images/hero/hero1.jpg";
 import heroIndustrial2 from "@/assets/images/hero/hero2.jpg";
-import heroIndustrial3 from "@/assets/images/hero/hero-1.jpg";
+import heroNosotros from "@/assets/images/hero/hero3.jpg";
 
 export const heroSlides: HeroSlideData[] = [
   {
@@ -31,11 +31,11 @@ export const heroSlides: HeroSlideData[] = [
   },
   {
     id: 3,
-    image: heroIndustrial3,
+    image: heroNosotros,
     imageAlt: "Profesionales trabajando en una instalación industrial",
     title: "Acompañamiento profesional",
     description:
-      "Desde la planeación hasta la implementación, nuestro equipo acompaña cada etapa de tu proyecto.",
+      "Te acompañamos en cada etapa de tu proyecto, desde la planeación inicial hasta su puesta en marcha.",
     buttonText: "Contáctanos",
     buttonUrl: "/contacto",
   },
