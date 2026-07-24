@@ -1,13 +1,8 @@
-
-/// comoponente encargado de registrar paginas 
-
-
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 
 import ServiceCardsGrid from "@/components/services/ServiceCardsGrid";
 import ServicePageHero from "@/components/services/ServicePageHero";
 import { serviceCategories } from "@/data/services/serviceCategories";
-import NotFound from "@/pages/NotFound";
 
 function ServiceCategoryPage() {
   const { categorySlug } = useParams<{
@@ -19,7 +14,7 @@ function ServiceCategoryPage() {
   );
 
   if (!category) {
-    return <NotFound />;
+    return <Navigate to="/404" replace />;
   }
 
   return (
