@@ -26,3 +26,4 @@ export type ServiceCategory = {
   icon?: LucideIcon;
   services: ServiceChild[];
 };
+

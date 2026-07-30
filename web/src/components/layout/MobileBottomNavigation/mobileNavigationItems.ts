@@ -1,12 +1,19 @@
+
+
 import {
   BriefcaseBusiness,
   Building2,
-  FileText,
   Home,
-  Wrench,
+  Phone,
+  UserRound,
 } from "lucide-react";
 
-import type { MobileNavigationItem } from "./mobileBottomNavigation.types";
+export type MobileNavigationItem = {
+  label: string;
+  to: string;
+  icon: typeof Home;
+  action?: "services-menu";
+};
 
 export const mobileNavigationItems: MobileNavigationItem[] = [
   {
@@ -17,21 +24,22 @@ export const mobileNavigationItems: MobileNavigationItem[] = [
   {
     label: "Servicios",
     to: "/servicios",
-    icon: Wrench,
+    icon: BriefcaseBusiness,
+    action: "services-menu",
   },
   {
     label: "Proyectos",
     to: "/proyectos",
-    icon: BriefcaseBusiness,
-  },
-  {
-    label: "Cotización",
-    to: "/contacto",
-    icon: FileText,
+    icon: Building2,
   },
   {
     label: "Nosotros",
     to: "/nosotros",
-    icon: Building2,
+    icon: UserRound,
+  },
+  {
+    label: "Contacto",
+    to: "/contacto",
+    icon: Phone,
   },
 ];

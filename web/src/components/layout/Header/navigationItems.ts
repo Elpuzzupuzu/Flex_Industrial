@@ -108,6 +108,10 @@ export const navigationItems: NavigationItem[] = [
     ],
   },
   {
+    label: "Productos",
+    to: "/productos",
+  },
+  {
     label: "Proyectos",
     to: "/proyectos",
   },
