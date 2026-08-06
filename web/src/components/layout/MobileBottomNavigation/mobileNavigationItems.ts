@@ -1,9 +1,8 @@
-
-
 import {
   BriefcaseBusiness,
   Building2,
   Home,
+  PackageSearch,
   Phone,
   UserRound,
 } from "lucide-react";
@@ -26,6 +25,11 @@ export const mobileNavigationItems: MobileNavigationItem[] = [
     to: "/servicios",
     icon: BriefcaseBusiness,
     action: "services-menu",
+  },
+  {
+    label: "Productos",
+    to: "/productos",
+    icon: PackageSearch,
   },
   {
     label: "Proyectos",
