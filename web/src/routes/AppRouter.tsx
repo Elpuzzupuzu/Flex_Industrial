@@ -48,6 +48,7 @@ import ProductDetailPage from "@/pages/products/ProductDetailPage";
 import ProductsPage from "@/pages/products/ProductsPage";
 import ServiceCategoryPage from "@/pages/services/ServiceCategoryPage";
 import ServiceDetailPage from "@/pages/services/ServiceDetailPage";
+import Projects from "@/pages/projetcs/Projects";
 
 export const router = createBrowserRouter([
   {
@@ -65,6 +66,11 @@ export const router = createBrowserRouter([
       {
         path: "productos/:productId",
         element: <ProductDetailPage />,
+      },
+
+        {
+        path: "proyectos",
+        element: <Projects />,
       },
       {
         path: "servicios/:categorySlug",
