@@ -13,8 +13,8 @@ import juedo_herramientas from "@/assets/images/products/Juego de herramientas i
 
 import reflecto_industrial from "@/assets/images/products/Reflector LED industrial 200 W.jpg";
 import alineador_industrial from "@/assets/images/products/Alineador interno neumático.jpg";
-
-
+import llava_ajustable from "@/assets/images/products/Llave ajustable industrial de 18 pulgadas.jpg"
+import luminaria_hermetica from "@/assets/images/products/Luminaria hermética industrial.jpg"
 
 
 const mainCategories = {
@@ -304,7 +304,7 @@ export const productsMock: ProductWithRelations[] = [
   {
     id: "50000000-0000-4000-8000-000000000007",
     nombre: "Luminaria hermética industrial",
-    imagen: "/images/products/luminaria-hermetica.webp",
+    imagen: luminaria_hermetica,
 
     categoria_principal_id: mainCategories.iluminacion.id,
     subcategoria_id: subcategories.luminarias.id,
@@ -340,7 +340,7 @@ export const productsMock: ProductWithRelations[] = [
   {
     id: "50000000-0000-4000-8000-000000000008",
     nombre: "Llave ajustable industrial de 18 pulgadas",
-    imagen: "/images/products/llave-ajustable.webp",
+    imagen: llava_ajustable,
 
     categoria_principal_id: mainCategories.herramientas.id,
     subcategoria_id: subcategories.herramientasManuales.id,
